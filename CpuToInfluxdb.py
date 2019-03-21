@@ -1,3 +1,4 @@
+#wen
 import psutil
 import os
 from influxdb import InfluxDBClient
@@ -5,7 +6,7 @@ import time,math,random
 
 
 #获取当前运行的pid
-p1=psutil.Process(os.getpid()) 
+p1=psutil.Process(os.getpid())
 
 
 from influxdb import InfluxDBClient
